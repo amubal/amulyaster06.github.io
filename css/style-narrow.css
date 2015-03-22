@@ -1,113 +1,74 @@
 /*
-	Prologue by HTML5 UP
+	Twenty by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/*********************************************************************************/
-/* Basic                                                                         */
-/*********************************************************************************/
+/* Basic */
 
-	body,input,textarea,select
-	{
-		font-size: 16pt;
+	body, input, select, textarea {
+		font-size: 13pt;
+		letter-spacing: 0.025em;
+		line-height: 1.5em;
 	}
 
-	.container
-	{
-		padding: 0 2em 0 2em;
+/* Section/Article */
+
+	header br {
+		display: none;
 	}
 
-	/* List */
+	header.major {
+		padding-bottom: 1em;
+	}
 
-		ul
-		{
+	header.special {
+		padding-left: 2.5em;
+		padding-right: 2.5em;
+	}
+
+	footer.major {
+		padding-top: 1.5em;
+	}
+
+/* Wrapper */
+
+	.wrapper {
+		margin-bottom: 3em;
+		padding: 3em 2.5em;
+	}
+
+		.wrapper.special br {
+			display: none;
 		}
 
-			ul.icons
-			{
-			}	
-			
-				ul.icons li
-				{
-				}
-
-				ul.icons li a
-				{
-					width: 1.75em;
-				}
-
-	/* Item */
-	
-		.item
-		{
-			margin-bottom: 20px;
+		.wrapper.style1 {
+			padding: 0 2.5em;
 		}
 
-/*********************************************************************************/
-/* Header                                                                        */
-/*********************************************************************************/
-
-	#header
-	{
-		width: 20%;
-	}
-
-	#logo
-	{
-	}
-	
-		#logo .image
-		{
-			position: relative;
-			margin: 0 0 0.5em 0;
+		.wrapper.style2 {
+			background-size: 15em;
 		}
 
-	#nav
-	{
-	}
-	
-		#nav ul
-		{
+		.wrapper.style4 {
+			padding: 2.5em;
 		}
-		
-			#nav ul li
-			{
-			}
-			
-				#nav ul li a
-				{
-					font-size: 0.8em;
-					padding-top: 0.5em;
-					padding-bottom: 0.5em;
-				}
-				
-					#nav ul li a span
-					{
-						padding-right: 2.25em;
-					}
-					
-						#nav ul li a span:before
-						{
-							left: 100%;
-							margin-left: -1.25em;
-							line-height: 2.25em;
-						}
 
-/*********************************************************************************/
-/* Footer                                                                        */
-/*********************************************************************************/
+/* Banner */
 
-	#footer
-	{
-		margin-left: 20%;
+	#banner {
+		background-size: 15em, 15em, auto, cover;
 	}
 
-/*********************************************************************************/
-/* Main                                                                          */
-/*********************************************************************************/
+/* Main */
 
-	#main
-	{
-		margin-left: 20%;
+	#main {
+		background-size: 15em;
+	}
+
+/* CTA */
+
+	#cta {
+		background-size: 15em, 15em, auto, cover;
+		padding: 3em;
 	}
