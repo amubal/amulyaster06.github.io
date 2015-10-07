@@ -1,227 +1,285 @@
 <!DOCTYPE HTML>
 <!--
-	Prologue by HTML5 UP
+	Helios by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
 	<head>
-		<title>I'm Amulya!</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/jquery.scrolly.min.js"></script>
-		<script src="js/jquery.scrollzer.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-layers.min.js"></script>
-		<script src="js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-wide.css" />
-		</noscript>
-		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<title>Provita</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
-	<body>
+	<body class="homepage">
+		<div id="page-wrapper">
 
-		<!-- Header -->
-			<div id="header" class="skel-layers-fixed">
+			<!-- Header -->
+				<div id="header">
 
-				<div class="top">
-
-					<!-- Logo -->
-						<div id="logo">
-							<span class="image avatar48"><img src="images/10430426_1414316988858313_4739303944188192082_n.jpg" alt="" /></span>
-							<h1 id="title">Amulya Balakrishnan</h1>
-							<p>Student, Innovator, Developer</p>
+					<!-- Inner -->
+						<div class="inner">
+							<header>
+								<h1><a href="index.html" id="logo">Provita</a></h1>
+								<hr />
+								<p>A model company run by high school students.</p>
+                                <br>
+                                <p>If you would like to learn more, click the button below.</p>
+							</header>
+							<footer>
+								<a href="#banner" class="button circled scrolly">Proceed</a>
+							</footer>
 						</div>
 
 					<!-- Nav -->
 						<nav id="nav">
-							<!--
-							
-								Prologue's nav expects links in one of two formats:
-								
-								1. Hash link (scrolls to a different section within the page)
-								
-								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
-
-								2. Standard link (sends the user to another page/site)
-
-								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
-							
-							-->
 							<ul>
-								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Projects</span></a></li>
-								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
-								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
+								<li><a href="index.html">Home</a></li>
+								<li>
+									<a href="#">Projects</a>
+									<ul>
+										<li><a href="#">Coagula</a></li>
+										<li><a href="#">Epipen</a></li>
+										<li><a href="#">Flying Syringe</a></li>
+										<li>
+											<a href="#">Additional Projects &hellip;</a>
+											<ul>
+												<li><a href="#">Lorem ipsum dolor</a></li>
+												<li><a href="#">Phasellus consequat</a></li>
+												<li><a href="#">Magna phasellus</a></li>
+												<li><a href="#">Etiam dolore nisl</a></li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li><a href="signup.html">Email Form</a></li>
+								<li><a href="right-sidebar.html">Our Team</a></li>
+								<li><a href="no-sidebar.html">Contact</a></li>
 							</ul>
 						</nav>
-						
+
 				</div>
-				
-				<div class="bottom">
 
-					<!-- Social Icons -->
-						<ul class="icons">
-							<li><a href="https://twitter.com/amulyaaa_" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="https://www.facebook.com/profile.php?id=100008400752489" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="https://github.com/amulyaster06" class="icon fa-github"><span class="label">Github</span></a></li>
-							<li><a href="mailto:amubal@bergen.org" class="icon fa-envelope"><span class="label">Email</span></a></li>
-						</ul>
-				
-				</div>
-			
-			</div>
+			<!-- Banner -->
+				<section id="banner">
+					<header>
+						<h2><strong>News</strong>.</h2>
+						<p>
+							Here, news and updates regarding the status of the projects will be posted. 
+						</p>
+					</header>
+				</section>
 
-		<!-- Main -->
-			<div id="main">
+			<!-- Carousel -->
+				<section class="carousel">
+					<div class="reel">
 
-				<!-- Intro -->
-					<section id="top" class="one dark cover">
-						<div class="container">
-
+						<article>
+							<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
 							<header>
-								<h2 class="alt">Hi! My name is <strong>Amulya Balakrishnan</strong>.</h2>
-								<p>I am a student attending the <a href="http://bcts.bergen.org">Bergen County Academies</a> in Hackensack, New Jersey. Currently, I am enrolled in the  <a href= "http://bcts.bergen.org/index.php/academy-for-medical-science-technology"> Academy for Medical Science Technology. </p>
-                                    <br>
-                                    <p> If you want to find out more about me, click the button below. </p>
-                                
+								<h3><a href="#">Pulvinar sagittis congue</a></h3>
 							</header>
-							
-							<footer>
-								<a href="#portfolio" class="button scrolly">Proceed</a>
-							</footer>
+							<p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
+						</article>
 
+						<article>
+							<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+							<header>
+								<h3><a href="#">Fermentum sagittis proin</a></h3>
+							</header>
+							<p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
+						</article>
+
+						<article>
+							<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+							<header>
+								<h3><a href="#">Sed quis rhoncus placerat</a></h3>
+							</header>
+							<p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
+						</article>
+
+						<article>
+							<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+							<header>
+								<h3><a href="#">Ultrices urna sit lobortis</a></h3>
+							</header>
+							<p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
+						</article>
+
+						<article>
+							<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
+							<header>
+								<h3><a href="#">Varius magnis sollicitudin</a></h3>
+							</header>
+							<p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
+						</article>
+
+						<article>
+							<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+							<header>
+								<h3><a href="#">Pulvinar sagittis congue</a></h3>
+							</header>
+							<p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
+						</article>
+
+						<article>
+							<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+							<header>
+								<h3><a href="#">Fermentum sagittis proin</a></h3>
+							</header>
+							<p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
+						</article>
+
+						<article>
+							<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+							<header>
+								<h3><a href="#">Sed quis rhoncus placerat</a></h3>
+							</header>
+							<p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
+						</article>
+
+						<article>
+							<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+							<header>
+								<h3><a href="#">Ultrices urna sit lobortis</a></h3>
+							</header>
+							<p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
+						</article>
+
+						<article>
+							<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
+							<header>
+								<h3><a href="#">Varius magnis sollicitudin</a></h3>
+							</header>
+							<p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
+						</article>
+
+					</div>
+				</section>
+
+			<!-- Main -->
+				<div class="wrapper style2">
+
+					<article id="main" class="container special">
+						<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
+						<header>
+							<h2><a href="#">About</a></h2>
+							<p>
+								This part of the website can include a general idea of what Provita is about as well as a mission statement. 
+							</p>
+						</header>
+						<p>
+							Commodo id natoque malesuada sollicitudin elit suscipit. Curae suspendisse mauris posuere accumsan massa
+							posuere lacus convallis tellus interdum. Amet nullam fringilla nibh nulla convallis ut venenatis purus
+							sit arcu sociis. Nunc fermentum adipiscing tempor cursus nascetur adipiscing adipiscing. Primis aliquam
+							mus lacinia lobortis phasellus suscipit. Fermentum lobortis non tristique ante proin sociis accumsan
+							lobortis. Auctor etiam porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum
+							consequat integer interdum integer purus sapien. Nibh eleifend nulla nascetur pharetra commodo mi augue
+							interdum tellus. Ornare cursus augue feugiat sodales velit lorem. Semper elementum ullamcorper lacinia
+							natoque aenean scelerisque.
+						</p>
+						<footer>
+						</footer>
+					</article>
+
+				</div>
+
+			<!-- Features -->
+				<div class="wrapper style1">
+
+					<section id="features" class="container special">
+						<header>
+							<h2>Gallery</h2>
+							<p>This part of the website can include pictures to help users feel more connected with the company.</p>
+						</header>
+						<div class="row">
+							<article class="4u 12u(mobile) special">
+								<a href="#" class="image featured"><img src="images/pic07.jpg" alt="" /></a>
+								<header>
+									<h3><a href="#">Gravida aliquam penatibus</a></h3>
+								</header>
+								<p>
+									Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
+									porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
+								</p>
+							</article>
+							<article class="4u 12u(mobile) special">
+								<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+								<header>
+									<h3><a href="#">Sed quis rhoncus placerat</a></h3>
+								</header>
+								<p>
+									Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
+									porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
+								</p>
+							</article>
+							<article class="4u 12u(mobile) special">
+								<a href="#" class="image featured"><img src="images/pic09.jpg" alt="" /></a>
+								<header>
+									<h3><a href="#">Magna laoreet et aliquam</a></h3>
+								</header>
+								<p>
+									Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
+									porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
+								</p>
+							</article>
 						</div>
 					</section>
-					
-				<!-- Portfolio -->
-					<section id="portfolio" class="two">
-						<div class="container">
-					
-							<header>
-								<h2>Projects</h2>
-							</header>
-							
-							<p>Below are the projects that I am currently working on.</p>
-						
-							<div class="row">
-								<div class="4u">
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/coming-soon.jpg" alt="" /></a>
+
+				</div>
+
+			<!-- Footer -->
+				<div id="footer">
+					<div class="container">
+						<div class="row">
+
+						</div>
+						<hr />
+						<div class="row">
+							<div class="12u">
+
+								<!-- Contact -->
+									<section class="contact">
 										<header>
-											<h3>BCA Chat</h3>
-                                            <p> This is a website in development that allows the students of BCA to chat/ connect with each other. It also allows BCA students to meet other students with similar interests and to ultimately make new friends.</p>
+											<h3>Connect with us</h3>
 										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/coming-soon.jpg" alt="" /></a>
-										<header>
-											<h3>RaiseMyGPA</h3>
-                                            <p> This is a website in development that allows BCA students to see what grades they need in each class in order to raise their GPA to a particular amount. </p>
-										</header>
-									</article>
-								</div>
-								<div class="4u">
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/coming-soon.jpg" alt="" /></a>
-										<header>
-											<h3>InspireMe</h3>
-                                            <p> This website is a social media site where people can post projects that they're working on in order to inspire other people with their ideas. They can even be inspired themselves!</p>
-										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/coming-soon.jpg" alt="" /></a>
-										<header>
-											<h3>Goal App</h3>
-                                            <p> This app is designed for people to set their own long term and short term goals and add steps on how to achieve them. </p>
-										</header>
-									</article>
-								</div>
-								<div class="4u">
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/coming-soon.jpg" alt="" /></a>
-										<header>
-											<h3>Charitable</h3>
-                                            <p> This is a social media site meant for charities and good causes. People can follow other charities and make donations to them.</p>
-										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/coming-soon.jpg" alt="" /></a>
-										<header>
-											<h3>Paper Organizer App</h3>
-                                            <p> This is an app in development that allows people to take a picture of important papers/ documents and organize them and say when they are due/ when they have to be completed by. </p>
-										</header>
-									</article>
-								</div>
+										<p>Click the links below to be redirected to our social media pages.</p>
+										<ul class="icons">
+											<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+											<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+											<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+											<li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
+											<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+											<li><a href="#" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
+										</ul>
+									</section>
+
+								<!-- Copyright -->
+									<div class="copyright">
+										<ul class="menu">
+											<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+										</ul>
+									</div>
+
 							</div>
 
 						</div>
-					</section>
+					</div>
+				</div>
 
-				<!-- About Me -->
-					<section id="about" class="three">
-						<div class="container">
+		</div>
 
-							<header>
-								<h2>About Me</h2>
-							</header>
-
-							<a href="http://bcts.bergen.org/index.php/bergen-county-academies" class="image featured"><img src="images/BergenCA.jpg" alt="" /></a>
-							
-							<p>My name is Amulya Balakrishnan. I am currently 14 years old and I live in Bergen County, NJ. I am a freshman attending Bergen County Academies high school. I am currently enrolled in the Academy for Medical Science Technology. Although I study medicine in school, I have a passion for computer science and technology. I am also very interested in business and entrepreneurship and I aspire to gain more experience in those fields and to one day create a tech startup company that can benefit many people and the world as a whole.  </p>
-                            <br> 
-                            I have a <a href="images/Amulya%20Balakrishnan%20Resume%20.pdf">resume</a> as well. 
-
-						</div>
-					</section>
-			
-				<!-- Contact -->
-					<section id="contact" class="four">
-						<div class="container">
-
-							<header>
-								<h2>Contact</h2>
-							</header>
-
-							<p>If you would like to contact me, please email me at <a href="mailto:amubal@bergen.org">amubal@bergen.org</a>. Currently, the contact form below is not functional, but it will be functional and available for use soon.</p>
-							
-							<form method="post" action="#">
-								<div class="row 50%">
-									<div class="6u"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="6u"><input type="text" name="email" placeholder="Email" /></div>
-								</div>
-								<div class="row 50%">
-									<div class="12u">
-										<textarea name="message" placeholder="Message"></textarea>
-									</div>
-								</div>
-								<div class="row">
-									<div class="12u">
-										<input type="submit" value="Send Message" />
-									</div>
-								</div>
-							</form>
-
-						</div>
-					</section>
-			
-			</div>
-
-		<!-- Footer -->
-			<div id="footer">
-				
-				<!-- Copyright -->
-					<ul class="copyright">
-						<li>&copy; Amulya Balakrishnan.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				
-			</div>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.onvisible.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
 
 	</body>
 </html>
